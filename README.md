@@ -1,16 +1,16 @@
-# requisitos para el proyecto
+# Requisitos del Proyecto
 
-- tener instlado git
-- tener instalado docker 
+- Tener Git instalado
+- Tener Docker instalado
 
-# pasos para la instalacion
+# Pasos para la Instalación
 
 - Clonar el repositorio
-- configurar .env basado en .env.example 
-- correr `docker-compose up -d --build`
-- correr `docker-compose exec app composer install`
-- correr `docker-compose exec app composer dump-autoload`
-dump-autoload
-# si necesita migrar la base de datos
+- Configurar el archivo .env basado en .env.example
+- Ejecutar `docker-compose up -d --build`
+- Ejecutar `docker-compose exec app composer install`
+- Ejecutar `docker-compose exec app composer dump-autoload`
 
-- ejecutar `docker-compose exec app php lego migrate`
+# Si es necesario migrar la base de datos
+
+- Ejecutar `docker-compose exec app php crud migrate`

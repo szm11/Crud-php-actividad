@@ -26,13 +26,6 @@ if (strpos($uri, 'api/') === 0) {
                 </head>
                 <body>
                     
-                
-
-
-
-
-
-                    
                     
                    <div style="display:flex;  width:100%; justify-content: space-around; ">
                    
@@ -50,6 +43,7 @@ if (strpos($uri, 'api/') === 0) {
                                     <th>capacidad</th>
                                     <th>estado</th>
                                     <th>kilometraje</th>
+                                    <th>Acciones</th>
 
                                 </tr>
                             </thead>
